@@ -52,6 +52,7 @@ class ToDoForm extends StatelessWidget {
           taskLocationController.text =
               '${position.latitude}, ${position.longitude}';
         }
+
         return position;
       } else {
         return Future.error("Serviço de localização desativado.");
@@ -81,7 +82,11 @@ class ToDoForm extends StatelessWidget {
                   controller: taskDateController,
                   decoration: const InputDecoration(
                     labelText: 'Type a date and hour',
+                    hintText: 'dd/MM/yyyy HH:mm',
                   ),
+                  onTap: () {
+                    taskDateController.text = '';
+                  },
                   inputFormatters: [maskFormatter],
                   keyboardType: TextInputType.datetime,
                 ),
