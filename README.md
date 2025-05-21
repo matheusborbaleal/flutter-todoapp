@@ -1,16 +1,16 @@
 # todoapp
 
-A new Flutter project.
+My first flutter app. 
 
-## Getting Started
+This is a ToDo list that you can add, edit and delete some tasks.
 
-This project is a starting point for a Flutter application.
+## Snapshots
 
-A few resources to get you started if this is your first Flutter project:
+![Alt text](./lib/assets/home_page.png "Home Page")
+![Alt text](./lib/assets/task_delete.png "Task Delete")
+![Alt text](./lib/assets/new_task.png "New Task")
+![Alt text](./lib/assets/new_task_filled.png "New Task Filled")
+![Alt text](./lib/assets/new_list.png "New List")
+![Alt text](./lib/assets/task_editing.png "Task Editing")
+![Alt text](./lib/assets/new_list_after_editing.png "New list after editing")
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
